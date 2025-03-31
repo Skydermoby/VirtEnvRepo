@@ -1,0 +1,13 @@
+[2025-03-30 20:35:32.212] [PSS] [info] ***********  Log Begin **********
+[2025-03-30 20:35:32.212] [PSS] [info] process id= 186740
+[2025-03-30 20:35:32.212] [PSS] [debug] [186740|191964]streaming_driver_interface_impl.cpp:19 StreamingDriverInterfaceImpl: callback= 0x1fc08d2d670, this= 0x1fc380b8850
+[2025-03-30 20:35:32.212] [PSS] [error] [186740|191964]streaming_driver_interface_impl.cpp:115 SetTrackingOrigin: streaming not started, this= 0x1fc380b8850
+[2025-03-30 20:35:32.212] [PSS] [info] [186740|191964]streaming_driver_interface_impl.cpp:24 ConnectToService: connect to service, client_id= vP3755SoeMIkHJc6, this= 0x1fc380b8850
+[2025-03-30 20:35:32.212] [PSS] [info] [186740|191964]streaming_client_impl.cpp:25 ConnectToService: client_id= vP3755SoeMIkHJc6, name= 3D Engine, desp= StreamingSceneRender, this= 0x1fcbfb88610
+[2025-03-30 20:35:32.212] [PSS] [debug] [186740|13372]streaming_client_impl.cpp:137 InvokeConnectToService: connect to service through the network, port= 54000, this= 0x1fcbfb88610
+[2025-03-30 20:35:32.212] [PSS] [debug] [186740|13372]transport_client_tcp3.cpp:34 Start: buffer size(send\recv): 2097152\2097152, this= 0x1fce288fce0
+[2025-03-30 20:35:32.212] [PSS] [info] [186740|13372]transport_client_tcp3.cpp:59 Start: server= 127.0.0.1:54000, local=0.0.0.0:0, this= 0x1fce288fce0
+[2025-03-30 20:35:34.249] [PSS] [info] [186740|7692]streaming_client_impl.cpp:62 NotifyConnectResult: network connect to service result= 10061, this= 0x1fcbfb88610
+[2025-03-30 20:35:34.249] [PSS] [error] [186740|7692]streaming_client_impl.cpp:64 NotifyConnectResult: connect to service network error= 10061, this= 0x1fcbfb88610
+[2025-03-30 20:35:34.249] [PSS] [error] [186740|13372]streaming_driver_interface_impl.cpp:332 NotifyClientConnectResult: connect to service failed, Network Error, this= 0x1fc380b8850
+[2025-03-30 20:35:34.250] [PSS] [error] [186740|7692]transport_client_tcp3.cpp:129 HandleConnect: connected error= No connection could be made because the target machine actively refused it, this= 0x1fce288fce0

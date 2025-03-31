@@ -1,0 +1,1537 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.60f1 (5f63fdee6d95) revision 6251517'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.60f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ling1/VirtEnvRepo/VirtEnvVR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59988
+Successfully changed project path to: C:/Users/ling1/VirtEnvRepo/VirtEnvVR
+C:/Users/ling1/VirtEnvRepo/VirtEnvVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [195628]  Target information:
+
+Player connection [195628]  * "[IP] 10.0.0.183 [Port] 0 [Flags] 2 [Guid] 563471246 [EditorId] 563471246 [Version] 1048832 [Id] WindowsEditor(7,HACKERSPACE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [195628] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [195628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 14.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.60f1 (5f63fdee6d95)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ling1/VirtEnvRepo/VirtEnvVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012281 seconds.
+- Loaded All Assemblies, in  0.471 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (341ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.941 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.487 seconds
+Domain Reload Profiling: 2424ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (280ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (908ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 26.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (54.5 KB). Loaded Objects now: 4740.
+Memory consumption went from 143.5 MB to 143.4 MB.
+Total: 13.247200 ms (FindLiveObjects: 1.207500 ms CreateObjectMapping: 1.218000 ms MarkObjects: 10.434700 ms  DeleteObjects: 0.383500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.162 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs Line: 31)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.926 seconds
+Domain Reload Profiling: 4030ms
+	BeginReloadAssembly (548ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (1192ms)
+		LoadAssemblies (1388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (40ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 49.64 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 7.70 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.2 MB). Loaded Objects now: 5007.
+Memory consumption went from 154.0 MB to 152.8 MB.
+Total: 5.538300 ms (FindLiveObjects: 0.680700 ms CreateObjectMapping: 0.649300 ms MarkObjects: 3.581500 ms  DeleteObjects: 0.626000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Common.cs: 6ceb988f4de4f72ff12dc70f820e33c8 -> 
+  custom:scripting/monoscript/fileName/PXR_LateLatching.cs: f8bb1185beb43d3e125a612a1ac67720 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectSetting.cs: afc676b7be9dff7fa01f9c0cde59a39d -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialAnchor.cs: d146d49eb9ee9d811767d16b568a6a6f -> 
+  custom:scripting/monoscript/fileName/PXR_Utils.cs: ef61dcdd7be5d1345dcb0820795f7cd4 -> 
+  custom:scripting/monoscript/fileName/Sport.cs: 615605a00c4b6edddf8707f5d834bc4c -> 
+  custom:scripting/monoscript/fileName/FileCopyCallback.cs: 88a891c1c0dff1f6ed8d247bf9fe5493 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGeneratorEditor.cs: 8091040aad1a6dbb44da0ae1bd085f1f -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManager.cs: cefbb90d7ee7d22cb6bb758fafd317d1 -> 
+  custom:scripting/monoscript/fileName/Achievement.cs: 4a27aec49624e2d915909e3ead0f432e -> 
+  custom:scripting/monoscript/fileName/PXR_PhfFile.cs: f3417d0e5149adc7fb085b37235082a6 -> 
+  custom:scripting/monoscript/fileName/Menu.cs: 74e134b8fbf35731bdbab5e3562ddd6c -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterialEditor.cs: 8746270be97630f1a5f6583fc6d9dc88 -> 
+  custom:scripting/monoscript/fileName/PXR_Plugin.cs: 83a2b47875ebb04be588121f7ddb33c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerLoader.cs: d47205fdefe00277b605931de5addf6f -> 
+  custom:scripting/monoscript/fileName/PXR_EyeTracking.cs: ffc61f959921034207d70645fb212475 -> 
+  custom:scripting/monoscript/fileName/PXR_Enterprise.cs: 3229224de6eee57237db3705ae9866f5 -> 
+  custom:scripting/monoscript/fileName/User.cs: 88c8e7f01dd2499ae0cfaba3d3836b25 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AmbisonicSource.cs: b41925125f1cb5285298f69ce4f5bc34 -> 
+  custom:scripting/monoscript/fileName/PXR_ObjImporter.cs: 5772fe6f72fcfd1b6e6fd50e95635dec -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
+  custom:scripting/monoscript/fileName/PlatformConfig.cs: 4167638fd48e7a991ef027b36056cfaf -> 
+  custom:scripting/monoscript/fileName/MessageQueue.cs: eebda3a40ed0164e3edb40055b64645e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Context.cs: 0b49f9b2ec95e9ccdf457005e48e664d -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterial.cs: b0ed09043432561e6d281853dd82ef69 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_API.cs: 0180cd679ab89372b9260053f415f09a -> 
+  custom:scripting/monoscript/fileName/LargeSpaceQuickModeInfo.cs: 746e92a4159e1a7dfb861a5a07d1911a -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRequired.cs: 87a45bfc208b657eaa7e65f1c0304bc2 -> 
+  custom:scripting/monoscript/fileName/PXR_EnterpriseTools.cs: cb748db9321a03ccf09f64a63126e35f -> 
+  custom:scripting/monoscript/fileName/AssetFile.cs: 20cc4a6542ff4cae6f8c78f06281565c -> 
+  custom:scripting/monoscript/fileName/PXR_ObjectTrackingBlock.cs: 22f6e1d1a4b8f0ae1b503fbcc01aa5c0 -> 
+  custom:scripting/monoscript/fileName/LongCallback.cs: c18079873c5fb0d777b6784600637062 -> 
+  custom:scripting/monoscript/fileName/CLIB.cs: 3c045d72b3a4968faad998412dc3ced3 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManagerEditor.cs: dabfdd2a96fe059f5339cf77d97ce378 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BoolCallback.cs: b59d6a39a870acff3d1d77dd72970958 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSettingEditor.cs: ef01803c90de352c09913ef04578e403 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/JsonMockWrapper.cs: 964b129916209e3a5c876aa40f1401af -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/PXR_Input.cs: 2d74c899d5a7936ff0667460bbfe3996 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/Application.cs: 63b93956051a3bd288113a556970b21a -> 
+  custom:scripting/monoscript/fileName/SystemUpdateCallback.cs: 3c538098cefc3d01f46c69773360b1c7 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRecommend.cs: 5616f00a58524bda4ed40636cb07f56a -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSourceEditor.cs: 27c49919edfe2e61363edc652835d4a7 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/MarkerInfoCallback.cs: 92a547703e886a9b48140ac112e8650e -> 
+  custom:scripting/monoscript/fileName/PXR_Hand.cs: 69977de91689529ead32ce03d782613f -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/PXR_Usages.cs: 35a8cc68e920baf3608d3450004808f5 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Types.cs: 6a4700a21f0700ac9bc54ea2f4f1fccd -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:scripting/monoscript/fileName/PXR_CameraEffectBlock.cs: 5f0185fb9ddbd5b6c98f1c38c5f897f8 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingEditor.cs: 8fbc6a6bc0bbdbd6bcb220cd53fe195e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform: c29cf432f8c5138003c182f3664603ca -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/Intent.cs: 84d6bff0360f76521f04a27993d9578a -> 
+  custom:scripting/monoscript/fileName/PXR_Loader.cs: 6941131b16e11f8434c28e7a56a285a7 -> 
+  custom:scripting/monoscript/fileName/Core.cs: c764e9d9e28fda7ce2ef86759a16300c -> 
+  custom:scripting/monoscript/fileName/Task.cs: 91a0e0c24d5b9443d8a9783c9304a4f7 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/RGBCameraStruct.cs: 3553494091fc2a6db2185b7a80bee948 -> 
+  custom:scripting/monoscript/fileName/plastic_fps_controller.cs: 57a8053aa123364c6ebec357dd62084b -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/PXR_HandTracking.cs: f57f15c97830fb9f108fbf94308ed626 -> 
+  custom:scripting/monoscript/fileName/WifiConfiguration.cs: f88095a12123faf41b116551ae7d1475 -> 
+  custom:scripting/monoscript/fileName/Leaderboard.cs: c5fa79f90c646c88bbdca675ad8f2af3 -> 
+  custom:scripting/monoscript/fileName/MarkerInfo.cs: 7401ebc04695c7e47ae0eab60a4e22da -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingDebugBlock.cs: 5024e111bf7b402266869252c2dcbdce -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: f1fb14d6da123c5e7a8264082b785349 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseConfig.cs: d5fc44e752a173aba27d5f5b62d78e4d -> 
+  custom:scripting/monoscript/fileName/PXR_Manager.cs: fc1f0b69481a43e117482fc099179a81 -> 
+  custom:scripting/monoscript/fileName/PXR_ScreenFade.cs: 144c16341559c66802f54eb3b3b89b77 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioListener.cs: 8e1d9185b46bbf15ef195049424b9ec0 -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManager.cs: 6a3308db8de1c635307f0872d1981d2f -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerWithHandAnimator.cs: df6bba3b7c3d70f752ea2a27d7d20919 -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPose.cs: c4e250d55d7469c7f41d49d37747dc3e -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:scripting/monoscript/fileName/Highlight.cs: 164a05a95777d91e8fcd4d80858a089a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/JsonData.cs: 7c9f698ee3c40f45e04150969e6f7310 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.Editor: de5b09758dfbf3bb6bcabde0c0002655 -> 
+  custom:scripting/monoscript/fileName/Notification.cs: 03b291fef286b70386f2eadc498c3fd6 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshColorSetting.cs: 446a9cad0ab19e58753102a85e521ca0 -> 
+  custom:scripting/monoscript/fileName/PlatformManifestRewrite.cs: 4d6e5691e30a253bf49773fc38599381 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PXR_MotionTracking.cs: c71bfa275494a3e7d119448d89ee6784 -> 
+  custom:scripting/monoscript/fileName/PXR_Boundary.cs: 7031229b8bdd8cef54bd97986dafb444 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKBuildCheck.cs: d89c3014525bf3e337c6465f551e46bf -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerPower.cs: 3c43e1c1a107fe171c5ee27c679552d2 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Example: c4cddd27f4255ac5db1bffedefdf6e10 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_ContextEditor.cs: 71ca7948050d4f716edf55ddffbc82de -> 
+  custom:scripting/monoscript/fileName/Matchmaking.cs: ecc931522755921313bcba3ad7639dbe -> 
+  custom:scripting/monoscript/fileName/PlatformPreprocessor.cs: 2ed1e3ec9199710372fd6c24cfb1966a -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerAnimator.cs: 720e8cfbae4b5079d69ef6c310e7f5a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PicoGs.cs: d0946c4c6a8c04685f3718b436c221cd -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManagerEditor.cs: 57797c6d39bf9759de3ca102d0e6bf4e -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSource.cs: eaf9f55f3468f36f9dc66fac9818450a -> 
+  custom:scripting/monoscript/fileName/Challenge.cs: 11d7e73681f5ac523c63ed9eba37cbd3 -> 
+  custom:scripting/monoscript/fileName/PXR_Log.cs: 07a23b5963c0f6231418c539578dd6c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ManagerEditor.cs: 24f8d233485166bfef293bd77f5548ab -> 
+  custom:scripting/monoscript/fileName/PXR_BuildingBlocks.cs: 7825c900372018e0a65992d9777ef065 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/PXR_OverlayManager.cs: c413462cce6b0051e821934d26e65a78 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/PXR_EnterprisePlugin.cs: 9a12aab187e70eb01adfe3525f55780a -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/OffLineSystemUpdateConfig.cs: 80d535ebffe9fda999495e4e53fd5ab6 -> 
+  custom:scripting/monoscript/fileName/Room.cs: ba819032e1f25c9028630cbb80713166 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerG3Animator.cs: 399a1f846cc237f618332b6172f5e038 -> 
+  custom:scripting/monoscript/fileName/PXR_MixedReality.cs: 868d39d781a78f093a9e9b8ad24f2bae -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGenerator.cs: bbe714c47786a71926bedf1322978404 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/monoscript/fileName/Compliance.cs: a20b44316a8967e816b8ade43449c3a7 -> 
+  custom:scripting/monoscript/fileName/Presence.cs: 02686356c06b048b50710fe7e02211d9 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer: eb508f7ae21d6a279d37f91c378f262f -> 
+  custom:scripting/monoscript/fileName/PXR_BuildProcessor.cs: d9fcafdf618a70566978fb5ba2915ce1 -> 
+  custom:scripting/monoscript/fileName/PXR_System.cs: 4ae928f21e57bec996876fbe6a80bbb8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO: 2d5292f46e8e791e3a51f2757cb01115 -> 
+  custom:scripting/monoscript/fileName/GeomNumPrinter.cs: f5073eb69bc4120ed720a3270b468995 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_MRSceneGeometryManager.cs: cdcb0fb3ec113ead6f072ec658a696d1 -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingBlock.cs: ee03f081d361aac19f497869cc676b1a -> 
+  custom:scripting/monoscript/fileName/Packet.cs: 193aafc595050b5e9c102e8b37c014e1 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSetting.cs: 664918cee3b06eff2a3b620fccbf3c07 -> 
+  custom:scripting/monoscript/fileName/JsonException.cs: 73860424f9e1a38f4515213d159096ea -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationOptional.cs: 6cf6bf490fa58901d3015772165b81ee -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 79063f8740d80a73d844727c912418bb -> 
+  custom:scripting/monoscript/fileName/CloudStorage.cs: 67f9660a6bd2e82f4163b50d497ac172 -> 
+  custom:scripting/monoscript/fileName/RTC.cs: da3f98db598af239c8ead1b96fe0b35f -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/PXR_FoveationRendering.cs: badfcd2f27e4b84f2856f8a6c7231118 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PXR_SceneCaptureManager.cs: 2f7dd9891749936559cd483314ff5b3d -> 
+  custom:scripting/monoscript/fileName/Network.cs: 9ba10994bfba6e1335da1ac1d8af4b50 -> 
+  custom:scripting/monoscript/fileName/StringCallback.cs: 41fab74732d8f065adfd7d6f3770e19f -> 
+  custom:scripting/monoscript/fileName/Achievements.cs: 5a614ee82f6928e064f9438295fce47c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Speech.cs: 8545b7fa0b2a0f28debd4ffe3088dbac -> 
+  custom:scripting/monoscript/fileName/IntCallback.cs: a2eb18cc3f2754b86c89a254f0aab8b3 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLayEditor.cs: 585ef0fc8ccda647c030e4928b4c5f02 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingAsset.cs: 5fd79a35424cae116a6ae96d22400524 -> 
+  custom:scripting/monoscript/fileName/Runner.cs: ef4f0751e480114414a2febf2528b298 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/monoscript/fileName/SimpleDemo.cs: fbdb67cc2cf973d0f8208c84e608f261 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometryEditor.cs: 55e9cae7f52addd03bb5a9f53692816e -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 5131bbb130bb4652742f626552744ac4 -> 
+  custom:scripting/monoscript/fileName/Message.cs: 8a3d57d8804d34bc96d253a401f24c39 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/Looper.cs: 102ee8bc9f4fe6bc3c6dbaf43a16059c -> 
+  custom:scripting/monoscript/fileName/Point3D.cs: 0992be2706d7732c3df020211ccd4825 -> 
+  custom:scripting/monoscript/fileName/Challenges.cs: b340d2da70b4bdc4fa639e2ebd636855 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/PXR_Settings.cs: a04eb7dc69717dc228846a8ca9edf1ed -> 
+  custom:scripting/monoscript/fileName/SliderText.cs: 949ff083d324be7d04bb355cf04613a8 -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayDemo.cs: 1a8882d40496d1cf6363f37715219a09 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometry.cs: 2bb1bb366d231518cfdf485790f52fdd -> 
+  custom:scripting/monoscript/fileName/JsonMapper.cs: dc015e1deb1c753b3a28431f2ed2703b -> 
+  custom:scripting/monoscript/fileName/PXR_Metadata.cs: 65014df5fbc3ff4cfb0a718c3b2982da -> 
+  custom:scripting/monoscript/fileName/IAP.cs: 7c3bbcdc4d2492fc40e2e4250efe7ddb -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Editor: 3a5cda23066ad6fb1740b48a05f6dd4a -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPosePreview.cs: 6efdc2d31b37531bc29534ef27a5cab4 -> 
+  custom:scripting/monoscript/fileName/Lexer.cs: da32336ed46db0ca5e6f840a180f1dd3 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModelCallback.cs: 10e4afbd8096eb27c1d99760308ccf63 -> 
+  custom:scripting/monoscript/fileName/PicoCastMediaFormat.cs: d3c585a497155cca106664bcb1039378 -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PcConfig.cs: a7a59a66887dac783be5f38ff8079da2 -> 
+  custom:scripting/monoscript/fileName/TimeUtil.cs: 4b651a382066672f699d8a2a1a827905 -> 
+  custom:scripting/monoscript/fileName/JsonReader.cs: b940e56670c866bc621cf40511e62f92 -> 
+  custom:scripting/monoscript/fileName/BindCallback.cs: 1438d1c3f07158a1006c05cd2d56ffe2 -> 
+  custom:scripting/monoscript/fileName/Gs.cs: adb5c6756e8649938e9229c51de6c77e -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 47b2d5387fe80e2b28f68297243f4883 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModel.cs: f8637bff828afa49d11b43500e9d1f02 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLay.cs: 0198ba0c8873ab4cd9e5b1b18813d0ff -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayEvent.cs: 42044aaa1ad909de5c41e66833afb391 -> 
+  custom:scripting/precompiled-assembly-types:PICO.TobSupport: 3fe36edbbb37747f8878cdfdf30860ab -> 
+  custom:scripting/monoscript/fileName/PXR_SettingsEditor.cs: 16d9af37ddb61263cc146bf30b097f83 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform.Editor: f1f24e6b2470975b85c33e85cc5e5c4d -> 
+  custom:scripting/monoscript/fileName/MarshalUtil.cs: eec8f71208c3a471015e3c28175e3873 -> 
+  custom:scripting/monoscript/fileName/EditorConf.cs: 0e5333f28267a698ce2f3b4c0ed40d54 -> 
+  custom:scripting/monoscript/fileName/PXR_VstModelPosCheck.cs: 72a44273ef0a2aa45a6bb1b1bd84520e -> 
+  custom:scripting/monoscript/fileName/IJsonWrapper.cs: e092419bb6a2fbdb943a4eff29b96a69 -> 
+  custom:scripting/monoscript/fileName/PXR_HandEditor.cs: 20f7f955fab0a6277f95987445299efa -> 
+  custom:scripting/monoscript/fileName/CLIB2.cs: 356452544141fb0044f311e1e47f193d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 533903.161989 seconds.
+  path: Assets/Resources/PXR_SDKSettingAsset.asset
+  artifactKey: Guid(1da2eb77ee9f0b44b8e2e929ee422406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/PXR_SDKSettingAsset.asset using Guid(1da2eb77ee9f0b44b8e2e929ee422406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56524ce57e4453aa2efd102b58882aa2') in 0.171652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+  artifactKey: Guid(f96aab08eac9e3b4b95d17ec120a513c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(f96aab08eac9e3b4b95d17ec120a513c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce12e7eb4a74a5f37094f8525793cf58') in 0.041914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/XR/Loaders/PXR_Loader.asset
+  artifactKey: Guid(f41ae37478ee404489d4847e56094b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Loaders/PXR_Loader.asset using Guid(f41ae37478ee404489d4847e56094b0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07a7994969f8f2662c6c8478596f2e00') in 0.035856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/XR/Settings/PXR_Settings.asset
+  artifactKey: Guid(b420637940424984f952cdad19c6bba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/PXR_Settings.asset using Guid(b420637940424984f952cdad19c6bba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13ba9b3def296127aebc1bb49ee82ff4') in 0.077826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.894 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs Line: 31)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.672 seconds
+Domain Reload Profiling: 2559ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (447ms)
+		LoadAssemblies (540ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (690ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 33.11 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 4554 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.2 MB). Loaded Objects now: 5017.
+Memory consumption went from 154.1 MB to 152.9 MB.
+Total: 5.017500 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.391500 ms MarkObjects: 3.242100 ms  DeleteObjects: 0.970300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/PXR_PTPlugin.cs: f9fa17c32bf33a54f6598622dd6ebb15 -> 
+  custom:scripting/monoscript/fileName/Common.cs: 6ceb988f4de4f72ff12dc70f820e33c8 -> 
+  custom:scripting/monoscript/fileName/PXR_LateLatching.cs: f8bb1185beb43d3e125a612a1ac67720 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectSetting.cs: afc676b7be9dff7fa01f9c0cde59a39d -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialAnchor.cs: d146d49eb9ee9d811767d16b568a6a6f -> 
+  custom:scripting/monoscript/fileName/PXR_Utils.cs: ef61dcdd7be5d1345dcb0820795f7cd4 -> 
+  custom:scripting/monoscript/fileName/Sport.cs: 615605a00c4b6edddf8707f5d834bc4c -> 
+  custom:scripting/monoscript/fileName/FileCopyCallback.cs: 88a891c1c0dff1f6ed8d247bf9fe5493 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGeneratorEditor.cs: 8091040aad1a6dbb44da0ae1bd085f1f -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManager.cs: cefbb90d7ee7d22cb6bb758fafd317d1 -> 
+  custom:scripting/monoscript/fileName/Achievement.cs: 4a27aec49624e2d915909e3ead0f432e -> 
+  custom:scripting/monoscript/fileName/PXR_PhfFile.cs: f3417d0e5149adc7fb085b37235082a6 -> 
+  custom:scripting/monoscript/fileName/Menu.cs: 74e134b8fbf35731bdbab5e3562ddd6c -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterialEditor.cs: 8746270be97630f1a5f6583fc6d9dc88 -> 
+  custom:scripting/monoscript/fileName/PXR_Plugin.cs: 83a2b47875ebb04be588121f7ddb33c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerLoader.cs: d47205fdefe00277b605931de5addf6f -> 
+  custom:scripting/monoscript/fileName/PXR_EyeTracking.cs: ffc61f959921034207d70645fb212475 -> 
+  custom:scripting/monoscript/fileName/PXR_Enterprise.cs: 3229224de6eee57237db3705ae9866f5 -> 
+  custom:scripting/monoscript/fileName/User.cs: 88c8e7f01dd2499ae0cfaba3d3836b25 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview.Editor: 35cf46a4b2e50d076c4095ef2a62802d -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AmbisonicSource.cs: b41925125f1cb5285298f69ce4f5bc34 -> 
+  custom:scripting/monoscript/fileName/PXR_ObjImporter.cs: 5772fe6f72fcfd1b6e6fd50e95635dec -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
+  custom:scripting/monoscript/fileName/PlatformConfig.cs: 4167638fd48e7a991ef027b36056cfaf -> 
+  custom:scripting/monoscript/fileName/MessageQueue.cs: eebda3a40ed0164e3edb40055b64645e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Context.cs: 0b49f9b2ec95e9ccdf457005e48e664d -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterial.cs: b0ed09043432561e6d281853dd82ef69 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_API.cs: 0180cd679ab89372b9260053f415f09a -> 
+  custom:scripting/monoscript/fileName/LargeSpaceQuickModeInfo.cs: 746e92a4159e1a7dfb861a5a07d1911a -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRequired.cs: 87a45bfc208b657eaa7e65f1c0304bc2 -> 
+  custom:scripting/monoscript/fileName/PXR_EnterpriseTools.cs: cb748db9321a03ccf09f64a63126e35f -> 
+  custom:scripting/monoscript/fileName/AssetFile.cs: 20cc4a6542ff4cae6f8c78f06281565c -> 
+  custom:scripting/monoscript/fileName/PXR_ObjectTrackingBlock.cs: 22f6e1d1a4b8f0ae1b503fbcc01aa5c0 -> 
+  custom:scripting/monoscript/fileName/LongCallback.cs: c18079873c5fb0d777b6784600637062 -> 
+  custom:scripting/monoscript/fileName/CLIB.cs: 3c045d72b3a4968faad998412dc3ced3 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManagerEditor.cs: dabfdd2a96fe059f5339cf77d97ce378 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview: ea8751c8f848e230ea223778cfa839f1 -> 
+  custom:scripting/monoscript/fileName/BoolCallback.cs: b59d6a39a870acff3d1d77dd72970958 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSettingEditor.cs: ef01803c90de352c09913ef04578e403 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/JsonMockWrapper.cs: 964b129916209e3a5c876aa40f1401af -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/PXR_Input.cs: 2d74c899d5a7936ff0667460bbfe3996 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/Application.cs: 63b93956051a3bd288113a556970b21a -> 
+  custom:scripting/monoscript/fileName/SystemUpdateCallback.cs: 3c538098cefc3d01f46c69773360b1c7 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRecommend.cs: 5616f00a58524bda4ed40636cb07f56a -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSourceEditor.cs: 27c49919edfe2e61363edc652835d4a7 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/MarkerInfoCallback.cs: 92a547703e886a9b48140ac112e8650e -> 
+  custom:scripting/monoscript/fileName/PXR_Hand.cs: 69977de91689529ead32ce03d782613f -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/PXR_PTMetadata.cs: 9e1cc9bd5c6d55cc715e1d4f3abf3612 -> 
+  custom:scripting/monoscript/fileName/PXR_Usages.cs: 35a8cc68e920baf3608d3450004808f5 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Types.cs: 6a4700a21f0700ac9bc54ea2f4f1fccd -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:scripting/monoscript/fileName/PXR_CameraEffectBlock.cs: 5f0185fb9ddbd5b6c98f1c38c5f897f8 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingEditor.cs: 8fbc6a6bc0bbdbd6bcb220cd53fe195e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform: c29cf432f8c5138003c182f3664603ca -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/Intent.cs: 84d6bff0360f76521f04a27993d9578a -> 
+  custom:scripting/monoscript/fileName/PXR_Loader.cs: 6941131b16e11f8434c28e7a56a285a7 -> 
+  custom:scripting/monoscript/fileName/Core.cs: c764e9d9e28fda7ce2ef86759a16300c -> 
+  custom:scripting/monoscript/fileName/Task.cs: 91a0e0c24d5b9443d8a9783c9304a4f7 -> 
+  custom:scripting/monoscript/fileName/PXR_PTSettings.cs: d66e33a74266bd3619a9470bf0ce50e8 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/RGBCameraStruct.cs: 3553494091fc2a6db2185b7a80bee948 -> 
+  custom:scripting/monoscript/fileName/plastic_fps_controller.cs: 57a8053aa123364c6ebec357dd62084b -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/PXR_HandTracking.cs: f57f15c97830fb9f108fbf94308ed626 -> 
+  custom:scripting/monoscript/fileName/WifiConfiguration.cs: f88095a12123faf41b116551ae7d1475 -> 
+  custom:scripting/monoscript/fileName/Leaderboard.cs: c5fa79f90c646c88bbdca675ad8f2af3 -> 
+  custom:scripting/monoscript/fileName/MarkerInfo.cs: 7401ebc04695c7e47ae0eab60a4e22da -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingDebugBlock.cs: 5024e111bf7b402266869252c2dcbdce -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 0584551019219d327b5031235fdf67b5 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseConfig.cs: d5fc44e752a173aba27d5f5b62d78e4d -> 
+  custom:scripting/monoscript/fileName/PXR_Manager.cs: fc1f0b69481a43e117482fc099179a81 -> 
+  custom:scripting/monoscript/fileName/PXR_ScreenFade.cs: 144c16341559c66802f54eb3b3b89b77 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioListener.cs: 8e1d9185b46bbf15ef195049424b9ec0 -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManager.cs: 6a3308db8de1c635307f0872d1981d2f -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerWithHandAnimator.cs: df6bba3b7c3d70f752ea2a27d7d20919 -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPose.cs: c4e250d55d7469c7f41d49d37747dc3e -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:scripting/monoscript/fileName/Highlight.cs: 164a05a95777d91e8fcd4d80858a089a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/JsonData.cs: 7c9f698ee3c40f45e04150969e6f7310 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.Editor: de5b09758dfbf3bb6bcabde0c0002655 -> 
+  custom:scripting/monoscript/fileName/Notification.cs: 03b291fef286b70386f2eadc498c3fd6 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshColorSetting.cs: 446a9cad0ab19e58753102a85e521ca0 -> 
+  custom:scripting/monoscript/fileName/PlatformManifestRewrite.cs: 4d6e5691e30a253bf49773fc38599381 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PXR_MotionTracking.cs: c71bfa275494a3e7d119448d89ee6784 -> 
+  custom:scripting/monoscript/fileName/PXR_Boundary.cs: 7031229b8bdd8cef54bd97986dafb444 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKBuildCheck.cs: d89c3014525bf3e337c6465f551e46bf -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerPower.cs: 3c43e1c1a107fe171c5ee27c679552d2 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Example: c4cddd27f4255ac5db1bffedefdf6e10 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_ContextEditor.cs: 71ca7948050d4f716edf55ddffbc82de -> 
+  custom:scripting/monoscript/fileName/Matchmaking.cs: ecc931522755921313bcba3ad7639dbe -> 
+  custom:scripting/monoscript/fileName/PlatformPreprocessor.cs: 2ed1e3ec9199710372fd6c24cfb1966a -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerAnimator.cs: 720e8cfbae4b5079d69ef6c310e7f5a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PicoGs.cs: d0946c4c6a8c04685f3718b436c221cd -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManagerEditor.cs: 57797c6d39bf9759de3ca102d0e6bf4e -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSource.cs: eaf9f55f3468f36f9dc66fac9818450a -> 
+  custom:scripting/monoscript/fileName/Challenge.cs: 11d7e73681f5ac523c63ed9eba37cbd3 -> 
+  custom:scripting/monoscript/fileName/PXR_Log.cs: 07a23b5963c0f6231418c539578dd6c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ManagerEditor.cs: 24f8d233485166bfef293bd77f5548ab -> 
+  custom:scripting/monoscript/fileName/PXR_BuildingBlocks.cs: 7825c900372018e0a65992d9777ef065 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/PXR_OverlayManager.cs: c413462cce6b0051e821934d26e65a78 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/PXR_EnterprisePlugin.cs: 9a12aab187e70eb01adfe3525f55780a -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/OffLineSystemUpdateConfig.cs: 80d535ebffe9fda999495e4e53fd5ab6 -> 
+  custom:scripting/monoscript/fileName/Room.cs: ba819032e1f25c9028630cbb80713166 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerG3Animator.cs: 399a1f846cc237f618332b6172f5e038 -> 
+  custom:scripting/monoscript/fileName/PXR_MixedReality.cs: 868d39d781a78f093a9e9b8ad24f2bae -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGenerator.cs: bbe714c47786a71926bedf1322978404 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/monoscript/fileName/Compliance.cs: a20b44316a8967e816b8ade43449c3a7 -> 
+  custom:scripting/monoscript/fileName/Presence.cs: 02686356c06b048b50710fe7e02211d9 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer: eb508f7ae21d6a279d37f91c378f262f -> 
+  custom:scripting/monoscript/fileName/PXR_BuildProcessor.cs: d9fcafdf618a70566978fb5ba2915ce1 -> 
+  custom:scripting/monoscript/fileName/PXR_System.cs: 4ae928f21e57bec996876fbe6a80bbb8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO: 2d5292f46e8e791e3a51f2757cb01115 -> 
+  custom:scripting/monoscript/fileName/GeomNumPrinter.cs: f5073eb69bc4120ed720a3270b468995 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_MRSceneGeometryManager.cs: cdcb0fb3ec113ead6f072ec658a696d1 -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingBlock.cs: ee03f081d361aac19f497869cc676b1a -> 
+  custom:scripting/monoscript/fileName/Packet.cs: 193aafc595050b5e9c102e8b37c014e1 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSetting.cs: 664918cee3b06eff2a3b620fccbf3c07 -> 
+  custom:scripting/monoscript/fileName/JsonException.cs: 73860424f9e1a38f4515213d159096ea -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationOptional.cs: 6cf6bf490fa58901d3015772165b81ee -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 79063f8740d80a73d844727c912418bb -> 
+  custom:scripting/monoscript/fileName/CloudStorage.cs: 67f9660a6bd2e82f4163b50d497ac172 -> 
+  custom:scripting/monoscript/fileName/RTC.cs: da3f98db598af239c8ead1b96fe0b35f -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/PXR_FoveationRendering.cs: badfcd2f27e4b84f2856f8a6c7231118 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PXR_SceneCaptureManager.cs: 2f7dd9891749936559cd483314ff5b3d -> 
+  custom:scripting/monoscript/fileName/Network.cs: 9ba10994bfba6e1335da1ac1d8af4b50 -> 
+  custom:scripting/monoscript/fileName/StringCallback.cs: 41fab74732d8f065adfd7d6f3770e19f -> 
+  custom:scripting/monoscript/fileName/Achievements.cs: 5a614ee82f6928e064f9438295fce47c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Speech.cs: 8545b7fa0b2a0f28debd4ffe3088dbac -> 
+  custom:scripting/monoscript/fileName/IntCallback.cs: a2eb18cc3f2754b86c89a254f0aab8b3 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLayEditor.cs: 585ef0fc8ccda647c030e4928b4c5f02 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingAsset.cs: 5fd79a35424cae116a6ae96d22400524 -> 
+  custom:scripting/monoscript/fileName/Runner.cs: ef4f0751e480114414a2febf2528b298 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/monoscript/fileName/SimpleDemo.cs: fbdb67cc2cf973d0f8208c84e608f261 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometryEditor.cs: 55e9cae7f52addd03bb5a9f53692816e -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 5131bbb130bb4652742f626552744ac4 -> 
+  custom:scripting/monoscript/fileName/Message.cs: 8a3d57d8804d34bc96d253a401f24c39 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/Looper.cs: 102ee8bc9f4fe6bc3c6dbaf43a16059c -> 
+  custom:scripting/monoscript/fileName/Point3D.cs: 0992be2706d7732c3df020211ccd4825 -> 
+  custom:scripting/monoscript/fileName/Challenges.cs: b340d2da70b4bdc4fa639e2ebd636855 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/PXR_Settings.cs: a04eb7dc69717dc228846a8ca9edf1ed -> 
+  custom:scripting/monoscript/fileName/SliderText.cs: 949ff083d324be7d04bb355cf04613a8 -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayDemo.cs: 1a8882d40496d1cf6363f37715219a09 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometry.cs: 2bb1bb366d231518cfdf485790f52fdd -> 
+  custom:scripting/monoscript/fileName/JsonMapper.cs: dc015e1deb1c753b3a28431f2ed2703b -> 
+  custom:scripting/monoscript/fileName/PXR_Metadata.cs: 65014df5fbc3ff4cfb0a718c3b2982da -> 
+  custom:scripting/monoscript/fileName/IAP.cs: 7c3bbcdc4d2492fc40e2e4250efe7ddb -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Editor: 3a5cda23066ad6fb1740b48a05f6dd4a -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPosePreview.cs: 6efdc2d31b37531bc29534ef27a5cab4 -> 
+  custom:scripting/monoscript/fileName/Lexer.cs: da32336ed46db0ca5e6f840a180f1dd3 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModelCallback.cs: 10e4afbd8096eb27c1d99760308ccf63 -> 
+  custom:scripting/monoscript/fileName/PicoCastMediaFormat.cs: d3c585a497155cca106664bcb1039378 -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PcConfig.cs: a7a59a66887dac783be5f38ff8079da2 -> 
+  custom:scripting/monoscript/fileName/TimeUtil.cs: 4b651a382066672f699d8a2a1a827905 -> 
+  custom:scripting/monoscript/fileName/JsonReader.cs: b940e56670c866bc621cf40511e62f92 -> 
+  custom:scripting/monoscript/fileName/BindCallback.cs: 1438d1c3f07158a1006c05cd2d56ffe2 -> 
+  custom:scripting/monoscript/fileName/Gs.cs: adb5c6756e8649938e9229c51de6c77e -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 47b2d5387fe80e2b28f68297243f4883 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModel.cs: f8637bff828afa49d11b43500e9d1f02 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLay.cs: 0198ba0c8873ab4cd9e5b1b18813d0ff -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayEvent.cs: 42044aaa1ad909de5c41e66833afb391 -> 
+  custom:scripting/precompiled-assembly-types:PICO.TobSupport: 3fe36edbbb37747f8878cdfdf30860ab -> 
+  custom:scripting/monoscript/fileName/PXR_SettingsEditor.cs: 16d9af37ddb61263cc146bf30b097f83 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform.Editor: f1f24e6b2470975b85c33e85cc5e5c4d -> 
+  custom:scripting/monoscript/fileName/MarshalUtil.cs: eec8f71208c3a471015e3c28175e3873 -> 
+  custom:scripting/monoscript/fileName/EditorConf.cs: 0e5333f28267a698ce2f3b4c0ed40d54 -> 
+  custom:scripting/monoscript/fileName/PXR_VstModelPosCheck.cs: 72a44273ef0a2aa45a6bb1b1bd84520e -> 
+  custom:scripting/monoscript/fileName/IJsonWrapper.cs: e092419bb6a2fbdb943a4eff29b96a69 -> 
+  custom:scripting/monoscript/fileName/PXR_HandEditor.cs: 20f7f955fab0a6277f95987445299efa -> 
+  custom:scripting/monoscript/fileName/PXR_PTLoader.cs: 23791354f1e10d67f952be1353e1face -> 
+  custom:scripting/monoscript/fileName/CLIB2.cs: 356452544141fb0044f311e1e47f193d -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.19 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.2 MB). Loaded Objects now: 5017.
+Memory consumption went from 84.3 MB to 83.2 MB.
+Total: 19.029400 ms (FindLiveObjects: 1.065200 ms CreateObjectMapping: 4.527100 ms MarkObjects: 10.749700 ms  DeleteObjects: 2.684100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/PXR_PTPlugin.cs: f9fa17c32bf33a54f6598622dd6ebb15 -> 
+  custom:scripting/monoscript/fileName/Common.cs: 6ceb988f4de4f72ff12dc70f820e33c8 -> 
+  custom:scripting/monoscript/fileName/PXR_LateLatching.cs: f8bb1185beb43d3e125a612a1ac67720 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectSetting.cs: afc676b7be9dff7fa01f9c0cde59a39d -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialAnchor.cs: d146d49eb9ee9d811767d16b568a6a6f -> 
+  custom:scripting/monoscript/fileName/PXR_Utils.cs: ef61dcdd7be5d1345dcb0820795f7cd4 -> 
+  custom:scripting/monoscript/fileName/Sport.cs: 615605a00c4b6edddf8707f5d834bc4c -> 
+  custom:scripting/monoscript/fileName/FileCopyCallback.cs: 88a891c1c0dff1f6ed8d247bf9fe5493 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGeneratorEditor.cs: 8091040aad1a6dbb44da0ae1bd085f1f -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManager.cs: cefbb90d7ee7d22cb6bb758fafd317d1 -> 
+  custom:scripting/monoscript/fileName/Achievement.cs: 4a27aec49624e2d915909e3ead0f432e -> 
+  custom:scripting/monoscript/fileName/PXR_PhfFile.cs: f3417d0e5149adc7fb085b37235082a6 -> 
+  custom:scripting/monoscript/fileName/Menu.cs: 74e134b8fbf35731bdbab5e3562ddd6c -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterialEditor.cs: 8746270be97630f1a5f6583fc6d9dc88 -> 
+  custom:scripting/monoscript/fileName/PXR_Plugin.cs: 83a2b47875ebb04be588121f7ddb33c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerLoader.cs: d47205fdefe00277b605931de5addf6f -> 
+  custom:scripting/monoscript/fileName/PXR_EyeTracking.cs: ffc61f959921034207d70645fb212475 -> 
+  custom:scripting/monoscript/fileName/PXR_Enterprise.cs: 3229224de6eee57237db3705ae9866f5 -> 
+  custom:scripting/monoscript/fileName/User.cs: 88c8e7f01dd2499ae0cfaba3d3836b25 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview.Editor: 35cf46a4b2e50d076c4095ef2a62802d -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AmbisonicSource.cs: b41925125f1cb5285298f69ce4f5bc34 -> 
+  custom:scripting/monoscript/fileName/PXR_ObjImporter.cs: 5772fe6f72fcfd1b6e6fd50e95635dec -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
+  custom:scripting/monoscript/fileName/PlatformConfig.cs: 4167638fd48e7a991ef027b36056cfaf -> 
+  custom:scripting/monoscript/fileName/MessageQueue.cs: eebda3a40ed0164e3edb40055b64645e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Context.cs: 0b49f9b2ec95e9ccdf457005e48e664d -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterial.cs: b0ed09043432561e6d281853dd82ef69 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_API.cs: 0180cd679ab89372b9260053f415f09a -> 
+  custom:scripting/monoscript/fileName/LargeSpaceQuickModeInfo.cs: 746e92a4159e1a7dfb861a5a07d1911a -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRequired.cs: 87a45bfc208b657eaa7e65f1c0304bc2 -> 
+  custom:scripting/monoscript/fileName/PXR_EnterpriseTools.cs: cb748db9321a03ccf09f64a63126e35f -> 
+  custom:scripting/monoscript/fileName/AssetFile.cs: 20cc4a6542ff4cae6f8c78f06281565c -> 
+  custom:scripting/monoscript/fileName/PXR_ObjectTrackingBlock.cs: 22f6e1d1a4b8f0ae1b503fbcc01aa5c0 -> 
+  custom:scripting/monoscript/fileName/LongCallback.cs: c18079873c5fb0d777b6784600637062 -> 
+  custom:scripting/monoscript/fileName/CLIB.cs: 3c045d72b3a4968faad998412dc3ced3 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManagerEditor.cs: dabfdd2a96fe059f5339cf77d97ce378 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview: ea8751c8f848e230ea223778cfa839f1 -> 
+  custom:scripting/monoscript/fileName/BoolCallback.cs: b59d6a39a870acff3d1d77dd72970958 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSettingEditor.cs: ef01803c90de352c09913ef04578e403 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/JsonMockWrapper.cs: 964b129916209e3a5c876aa40f1401af -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/PXR_Input.cs: 2d74c899d5a7936ff0667460bbfe3996 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/Application.cs: 63b93956051a3bd288113a556970b21a -> 
+  custom:scripting/monoscript/fileName/SystemUpdateCallback.cs: 3c538098cefc3d01f46c69773360b1c7 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRecommend.cs: 5616f00a58524bda4ed40636cb07f56a -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSourceEditor.cs: 27c49919edfe2e61363edc652835d4a7 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/MarkerInfoCallback.cs: 92a547703e886a9b48140ac112e8650e -> 
+  custom:scripting/monoscript/fileName/PXR_Hand.cs: 69977de91689529ead32ce03d782613f -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/PXR_PTMetadata.cs: 9e1cc9bd5c6d55cc715e1d4f3abf3612 -> 
+  custom:scripting/monoscript/fileName/PXR_Usages.cs: 35a8cc68e920baf3608d3450004808f5 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Types.cs: 6a4700a21f0700ac9bc54ea2f4f1fccd -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:scripting/monoscript/fileName/PXR_CameraEffectBlock.cs: 5f0185fb9ddbd5b6c98f1c38c5f897f8 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingEditor.cs: 8fbc6a6bc0bbdbd6bcb220cd53fe195e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform: c29cf432f8c5138003c182f3664603ca -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/Intent.cs: 84d6bff0360f76521f04a27993d9578a -> 
+  custom:scripting/monoscript/fileName/PXR_Loader.cs: 6941131b16e11f8434c28e7a56a285a7 -> 
+  custom:scripting/monoscript/fileName/Core.cs: c764e9d9e28fda7ce2ef86759a16300c -> 
+  custom:scripting/monoscript/fileName/Task.cs: 91a0e0c24d5b9443d8a9783c9304a4f7 -> 
+  custom:scripting/monoscript/fileName/PXR_PTSettings.cs: d66e33a74266bd3619a9470bf0ce50e8 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/RGBCameraStruct.cs: 3553494091fc2a6db2185b7a80bee948 -> 
+  custom:scripting/monoscript/fileName/plastic_fps_controller.cs: 57a8053aa123364c6ebec357dd62084b -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/PXR_HandTracking.cs: f57f15c97830fb9f108fbf94308ed626 -> 
+  custom:scripting/monoscript/fileName/WifiConfiguration.cs: f88095a12123faf41b116551ae7d1475 -> 
+  custom:scripting/monoscript/fileName/Leaderboard.cs: c5fa79f90c646c88bbdca675ad8f2af3 -> 
+  custom:scripting/monoscript/fileName/MarkerInfo.cs: 7401ebc04695c7e47ae0eab60a4e22da -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingDebugBlock.cs: 5024e111bf7b402266869252c2dcbdce -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 0584551019219d327b5031235fdf67b5 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseConfig.cs: d5fc44e752a173aba27d5f5b62d78e4d -> 
+  custom:scripting/monoscript/fileName/PXR_Manager.cs: fc1f0b69481a43e117482fc099179a81 -> 
+  custom:scripting/monoscript/fileName/PXR_ScreenFade.cs: 144c16341559c66802f54eb3b3b89b77 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioListener.cs: 8e1d9185b46bbf15ef195049424b9ec0 -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManager.cs: 6a3308db8de1c635307f0872d1981d2f -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerWithHandAnimator.cs: df6bba3b7c3d70f752ea2a27d7d20919 -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPose.cs: c4e250d55d7469c7f41d49d37747dc3e -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:scripting/monoscript/fileName/Highlight.cs: 164a05a95777d91e8fcd4d80858a089a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/JsonData.cs: 7c9f698ee3c40f45e04150969e6f7310 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.Editor: de5b09758dfbf3bb6bcabde0c0002655 -> 
+  custom:scripting/monoscript/fileName/Notification.cs: 03b291fef286b70386f2eadc498c3fd6 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshColorSetting.cs: 446a9cad0ab19e58753102a85e521ca0 -> 
+  custom:scripting/monoscript/fileName/PlatformManifestRewrite.cs: 4d6e5691e30a253bf49773fc38599381 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PXR_MotionTracking.cs: c71bfa275494a3e7d119448d89ee6784 -> 
+  custom:scripting/monoscript/fileName/PXR_Boundary.cs: 7031229b8bdd8cef54bd97986dafb444 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKBuildCheck.cs: d89c3014525bf3e337c6465f551e46bf -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerPower.cs: 3c43e1c1a107fe171c5ee27c679552d2 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Example: c4cddd27f4255ac5db1bffedefdf6e10 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_ContextEditor.cs: 71ca7948050d4f716edf55ddffbc82de -> 
+  custom:scripting/monoscript/fileName/Matchmaking.cs: ecc931522755921313bcba3ad7639dbe -> 
+  custom:scripting/monoscript/fileName/PlatformPreprocessor.cs: 2ed1e3ec9199710372fd6c24cfb1966a -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerAnimator.cs: 720e8cfbae4b5079d69ef6c310e7f5a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PicoGs.cs: d0946c4c6a8c04685f3718b436c221cd -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManagerEditor.cs: 57797c6d39bf9759de3ca102d0e6bf4e -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSource.cs: eaf9f55f3468f36f9dc66fac9818450a -> 
+  custom:scripting/monoscript/fileName/Challenge.cs: 11d7e73681f5ac523c63ed9eba37cbd3 -> 
+  custom:scripting/monoscript/fileName/PXR_Log.cs: 07a23b5963c0f6231418c539578dd6c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ManagerEditor.cs: 24f8d233485166bfef293bd77f5548ab -> 
+  custom:scripting/monoscript/fileName/PXR_BuildingBlocks.cs: 7825c900372018e0a65992d9777ef065 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/PXR_OverlayManager.cs: c413462cce6b0051e821934d26e65a78 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/PXR_EnterprisePlugin.cs: 9a12aab187e70eb01adfe3525f55780a -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/OffLineSystemUpdateConfig.cs: 80d535ebffe9fda999495e4e53fd5ab6 -> 
+  custom:scripting/monoscript/fileName/Room.cs: ba819032e1f25c9028630cbb80713166 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerG3Animator.cs: 399a1f846cc237f618332b6172f5e038 -> 
+  custom:scripting/monoscript/fileName/PXR_MixedReality.cs: 868d39d781a78f093a9e9b8ad24f2bae -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGenerator.cs: bbe714c47786a71926bedf1322978404 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/monoscript/fileName/Compliance.cs: a20b44316a8967e816b8ade43449c3a7 -> 
+  custom:scripting/monoscript/fileName/Presence.cs: 02686356c06b048b50710fe7e02211d9 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer: eb508f7ae21d6a279d37f91c378f262f -> 
+  custom:scripting/monoscript/fileName/PXR_BuildProcessor.cs: d9fcafdf618a70566978fb5ba2915ce1 -> 
+  custom:scripting/monoscript/fileName/PXR_System.cs: 4ae928f21e57bec996876fbe6a80bbb8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO: 2d5292f46e8e791e3a51f2757cb01115 -> 
+  custom:scripting/monoscript/fileName/GeomNumPrinter.cs: f5073eb69bc4120ed720a3270b468995 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_MRSceneGeometryManager.cs: cdcb0fb3ec113ead6f072ec658a696d1 -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingBlock.cs: ee03f081d361aac19f497869cc676b1a -> 
+  custom:scripting/monoscript/fileName/Packet.cs: 193aafc595050b5e9c102e8b37c014e1 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSetting.cs: 664918cee3b06eff2a3b620fccbf3c07 -> 
+  custom:scripting/monoscript/fileName/JsonException.cs: 73860424f9e1a38f4515213d159096ea -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationOptional.cs: 6cf6bf490fa58901d3015772165b81ee -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 79063f8740d80a73d844727c912418bb -> 
+  custom:scripting/monoscript/fileName/CloudStorage.cs: 67f9660a6bd2e82f4163b50d497ac172 -> 
+  custom:scripting/monoscript/fileName/RTC.cs: da3f98db598af239c8ead1b96fe0b35f -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/PXR_FoveationRendering.cs: badfcd2f27e4b84f2856f8a6c7231118 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PXR_SceneCaptureManager.cs: 2f7dd9891749936559cd483314ff5b3d -> 
+  custom:scripting/monoscript/fileName/Network.cs: 9ba10994bfba6e1335da1ac1d8af4b50 -> 
+  custom:scripting/monoscript/fileName/StringCallback.cs: 41fab74732d8f065adfd7d6f3770e19f -> 
+  custom:scripting/monoscript/fileName/Achievements.cs: 5a614ee82f6928e064f9438295fce47c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Speech.cs: 8545b7fa0b2a0f28debd4ffe3088dbac -> 
+  custom:scripting/monoscript/fileName/IntCallback.cs: a2eb18cc3f2754b86c89a254f0aab8b3 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLayEditor.cs: 585ef0fc8ccda647c030e4928b4c5f02 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingAsset.cs: 5fd79a35424cae116a6ae96d22400524 -> 
+  custom:scripting/monoscript/fileName/Runner.cs: ef4f0751e480114414a2febf2528b298 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/monoscript/fileName/SimpleDemo.cs: fbdb67cc2cf973d0f8208c84e608f261 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometryEditor.cs: 55e9cae7f52addd03bb5a9f53692816e -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 5131bbb130bb4652742f626552744ac4 -> 
+  custom:scripting/monoscript/fileName/Message.cs: 8a3d57d8804d34bc96d253a401f24c39 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/Looper.cs: 102ee8bc9f4fe6bc3c6dbaf43a16059c -> 
+  custom:scripting/monoscript/fileName/Point3D.cs: 0992be2706d7732c3df020211ccd4825 -> 
+  custom:scripting/monoscript/fileName/Challenges.cs: b340d2da70b4bdc4fa639e2ebd636855 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/PXR_Settings.cs: a04eb7dc69717dc228846a8ca9edf1ed -> 
+  custom:scripting/monoscript/fileName/SliderText.cs: 949ff083d324be7d04bb355cf04613a8 -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayDemo.cs: 1a8882d40496d1cf6363f37715219a09 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometry.cs: 2bb1bb366d231518cfdf485790f52fdd -> 
+  custom:scripting/monoscript/fileName/JsonMapper.cs: dc015e1deb1c753b3a28431f2ed2703b -> 
+  custom:scripting/monoscript/fileName/PXR_Metadata.cs: 65014df5fbc3ff4cfb0a718c3b2982da -> 
+  custom:scripting/monoscript/fileName/IAP.cs: 7c3bbcdc4d2492fc40e2e4250efe7ddb -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Editor: 3a5cda23066ad6fb1740b48a05f6dd4a -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPosePreview.cs: 6efdc2d31b37531bc29534ef27a5cab4 -> 
+  custom:scripting/monoscript/fileName/Lexer.cs: da32336ed46db0ca5e6f840a180f1dd3 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModelCallback.cs: 10e4afbd8096eb27c1d99760308ccf63 -> 
+  custom:scripting/monoscript/fileName/PicoCastMediaFormat.cs: d3c585a497155cca106664bcb1039378 -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PcConfig.cs: a7a59a66887dac783be5f38ff8079da2 -> 
+  custom:scripting/monoscript/fileName/TimeUtil.cs: 4b651a382066672f699d8a2a1a827905 -> 
+  custom:scripting/monoscript/fileName/JsonReader.cs: b940e56670c866bc621cf40511e62f92 -> 
+  custom:scripting/monoscript/fileName/BindCallback.cs: 1438d1c3f07158a1006c05cd2d56ffe2 -> 
+  custom:scripting/monoscript/fileName/Gs.cs: adb5c6756e8649938e9229c51de6c77e -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 47b2d5387fe80e2b28f68297243f4883 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModel.cs: f8637bff828afa49d11b43500e9d1f02 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLay.cs: 0198ba0c8873ab4cd9e5b1b18813d0ff -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayEvent.cs: 42044aaa1ad909de5c41e66833afb391 -> 
+  custom:scripting/precompiled-assembly-types:PICO.TobSupport: 3fe36edbbb37747f8878cdfdf30860ab -> 
+  custom:scripting/monoscript/fileName/PXR_SettingsEditor.cs: 16d9af37ddb61263cc146bf30b097f83 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform.Editor: f1f24e6b2470975b85c33e85cc5e5c4d -> 
+  custom:scripting/monoscript/fileName/MarshalUtil.cs: eec8f71208c3a471015e3c28175e3873 -> 
+  custom:scripting/monoscript/fileName/EditorConf.cs: 0e5333f28267a698ce2f3b4c0ed40d54 -> 
+  custom:scripting/monoscript/fileName/PXR_VstModelPosCheck.cs: 72a44273ef0a2aa45a6bb1b1bd84520e -> 
+  custom:scripting/monoscript/fileName/IJsonWrapper.cs: e092419bb6a2fbdb943a4eff29b96a69 -> 
+  custom:scripting/monoscript/fileName/PXR_HandEditor.cs: 20f7f955fab0a6277f95987445299efa -> 
+  custom:scripting/monoscript/fileName/PXR_PTLoader.cs: 23791354f1e10d67f952be1353e1face -> 
+  custom:scripting/monoscript/fileName/CLIB2.cs: 356452544141fb0044f311e1e47f193d -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 97.18 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.2 MB). Loaded Objects now: 5017.
+Memory consumption went from 84.0 MB to 82.8 MB.
+Total: 16.213900 ms (FindLiveObjects: 0.664700 ms CreateObjectMapping: 0.835900 ms MarkObjects: 11.887800 ms  DeleteObjects: 2.820900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:scripting/monoscript/fileName/PXR_PTPlugin.cs: f9fa17c32bf33a54f6598622dd6ebb15 -> 
+  custom:scripting/monoscript/fileName/Common.cs: 6ceb988f4de4f72ff12dc70f820e33c8 -> 
+  custom:scripting/monoscript/fileName/PXR_LateLatching.cs: f8bb1185beb43d3e125a612a1ac67720 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectSetting.cs: afc676b7be9dff7fa01f9c0cde59a39d -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialAnchor.cs: d146d49eb9ee9d811767d16b568a6a6f -> 
+  custom:scripting/monoscript/fileName/PXR_Utils.cs: ef61dcdd7be5d1345dcb0820795f7cd4 -> 
+  custom:scripting/monoscript/fileName/Sport.cs: 615605a00c4b6edddf8707f5d834bc4c -> 
+  custom:scripting/monoscript/fileName/FileCopyCallback.cs: 88a891c1c0dff1f6ed8d247bf9fe5493 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGeneratorEditor.cs: 8091040aad1a6dbb44da0ae1bd085f1f -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManager.cs: cefbb90d7ee7d22cb6bb758fafd317d1 -> 
+  custom:scripting/monoscript/fileName/Achievement.cs: 4a27aec49624e2d915909e3ead0f432e -> 
+  custom:scripting/monoscript/fileName/PXR_PhfFile.cs: f3417d0e5149adc7fb085b37235082a6 -> 
+  custom:scripting/monoscript/fileName/Menu.cs: 74e134b8fbf35731bdbab5e3562ddd6c -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterialEditor.cs: 8746270be97630f1a5f6583fc6d9dc88 -> 
+  custom:scripting/monoscript/fileName/PXR_Plugin.cs: 83a2b47875ebb04be588121f7ddb33c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerLoader.cs: d47205fdefe00277b605931de5addf6f -> 
+  custom:scripting/monoscript/fileName/PXR_EyeTracking.cs: ffc61f959921034207d70645fb212475 -> 
+  custom:scripting/monoscript/fileName/PXR_Enterprise.cs: 3229224de6eee57237db3705ae9866f5 -> 
+  custom:scripting/monoscript/fileName/User.cs: 88c8e7f01dd2499ae0cfaba3d3836b25 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview.Editor: 35cf46a4b2e50d076c4095ef2a62802d -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AmbisonicSource.cs: b41925125f1cb5285298f69ce4f5bc34 -> 
+  custom:scripting/monoscript/fileName/PXR_ObjImporter.cs: 5772fe6f72fcfd1b6e6fd50e95635dec -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
+  custom:scripting/monoscript/fileName/PlatformConfig.cs: 4167638fd48e7a991ef027b36056cfaf -> 
+  custom:scripting/monoscript/fileName/MessageQueue.cs: eebda3a40ed0164e3edb40055b64645e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Context.cs: 0b49f9b2ec95e9ccdf457005e48e664d -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterial.cs: b0ed09043432561e6d281853dd82ef69 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_API.cs: 0180cd679ab89372b9260053f415f09a -> 
+  custom:scripting/monoscript/fileName/LargeSpaceQuickModeInfo.cs: 746e92a4159e1a7dfb861a5a07d1911a -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRequired.cs: 87a45bfc208b657eaa7e65f1c0304bc2 -> 
+  custom:scripting/monoscript/fileName/PXR_EnterpriseTools.cs: cb748db9321a03ccf09f64a63126e35f -> 
+  custom:scripting/monoscript/fileName/AssetFile.cs: 20cc4a6542ff4cae6f8c78f06281565c -> 
+  custom:scripting/monoscript/fileName/PXR_ObjectTrackingBlock.cs: 22f6e1d1a4b8f0ae1b503fbcc01aa5c0 -> 
+  custom:scripting/monoscript/fileName/LongCallback.cs: c18079873c5fb0d777b6784600637062 -> 
+  custom:scripting/monoscript/fileName/CLIB.cs: 3c045d72b3a4968faad998412dc3ced3 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManagerEditor.cs: dabfdd2a96fe059f5339cf77d97ce378 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview: ea8751c8f848e230ea223778cfa839f1 -> 
+  custom:scripting/monoscript/fileName/BoolCallback.cs: b59d6a39a870acff3d1d77dd72970958 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSettingEditor.cs: ef01803c90de352c09913ef04578e403 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/JsonMockWrapper.cs: 964b129916209e3a5c876aa40f1401af -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/PXR_Input.cs: 2d74c899d5a7936ff0667460bbfe3996 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/Application.cs: 63b93956051a3bd288113a556970b21a -> 
+  custom:scripting/monoscript/fileName/SystemUpdateCallback.cs: 3c538098cefc3d01f46c69773360b1c7 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRecommend.cs: 5616f00a58524bda4ed40636cb07f56a -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSourceEditor.cs: 27c49919edfe2e61363edc652835d4a7 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/MarkerInfoCallback.cs: 92a547703e886a9b48140ac112e8650e -> 
+  custom:scripting/monoscript/fileName/PXR_Hand.cs: 69977de91689529ead32ce03d782613f -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/PXR_PTMetadata.cs: 9e1cc9bd5c6d55cc715e1d4f3abf3612 -> 
+  custom:scripting/monoscript/fileName/PXR_Usages.cs: 35a8cc68e920baf3608d3450004808f5 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Types.cs: 6a4700a21f0700ac9bc54ea2f4f1fccd -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:scripting/monoscript/fileName/PXR_CameraEffectBlock.cs: 5f0185fb9ddbd5b6c98f1c38c5f897f8 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingEditor.cs: 8fbc6a6bc0bbdbd6bcb220cd53fe195e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform: c29cf432f8c5138003c182f3664603ca -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/Intent.cs: 84d6bff0360f76521f04a27993d9578a -> 
+  custom:scripting/monoscript/fileName/PXR_Loader.cs: 6941131b16e11f8434c28e7a56a285a7 -> 
+  custom:scripting/monoscript/fileName/Core.cs: c764e9d9e28fda7ce2ef86759a16300c -> 
+  custom:scripting/monoscript/fileName/Task.cs: 91a0e0c24d5b9443d8a9783c9304a4f7 -> 
+  custom:scripting/monoscript/fileName/PXR_PTSettings.cs: d66e33a74266bd3619a9470bf0ce50e8 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/RGBCameraStruct.cs: 3553494091fc2a6db2185b7a80bee948 -> 
+  custom:scripting/monoscript/fileName/plastic_fps_controller.cs: 57a8053aa123364c6ebec357dd62084b -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/PXR_HandTracking.cs: f57f15c97830fb9f108fbf94308ed626 -> 
+  custom:scripting/monoscript/fileName/WifiConfiguration.cs: f88095a12123faf41b116551ae7d1475 -> 
+  custom:scripting/monoscript/fileName/Leaderboard.cs: c5fa79f90c646c88bbdca675ad8f2af3 -> 
+  custom:scripting/monoscript/fileName/MarkerInfo.cs: 7401ebc04695c7e47ae0eab60a4e22da -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingDebugBlock.cs: 5024e111bf7b402266869252c2dcbdce -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 0584551019219d327b5031235fdf67b5 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseConfig.cs: d5fc44e752a173aba27d5f5b62d78e4d -> 
+  custom:scripting/monoscript/fileName/PXR_Manager.cs: fc1f0b69481a43e117482fc099179a81 -> 
+  custom:scripting/monoscript/fileName/PXR_ScreenFade.cs: 144c16341559c66802f54eb3b3b89b77 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioListener.cs: 8e1d9185b46bbf15ef195049424b9ec0 -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManager.cs: 6a3308db8de1c635307f0872d1981d2f -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerWithHandAnimator.cs: df6bba3b7c3d70f752ea2a27d7d20919 -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPose.cs: c4e250d55d7469c7f41d49d37747dc3e -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:scripting/monoscript/fileName/Highlight.cs: 164a05a95777d91e8fcd4d80858a089a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/JsonData.cs: 7c9f698ee3c40f45e04150969e6f7310 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.Editor: de5b09758dfbf3bb6bcabde0c0002655 -> 
+  custom:scripting/monoscript/fileName/Notification.cs: 03b291fef286b70386f2eadc498c3fd6 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshColorSetting.cs: 446a9cad0ab19e58753102a85e521ca0 -> 
+  custom:scripting/monoscript/fileName/PlatformManifestRewrite.cs: 4d6e5691e30a253bf49773fc38599381 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PXR_MotionTracking.cs: c71bfa275494a3e7d119448d89ee6784 -> 
+  custom:scripting/monoscript/fileName/PXR_Boundary.cs: 7031229b8bdd8cef54bd97986dafb444 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKBuildCheck.cs: d89c3014525bf3e337c6465f551e46bf -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerPower.cs: 3c43e1c1a107fe171c5ee27c679552d2 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Example: c4cddd27f4255ac5db1bffedefdf6e10 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_ContextEditor.cs: 71ca7948050d4f716edf55ddffbc82de -> 
+  custom:scripting/monoscript/fileName/Matchmaking.cs: ecc931522755921313bcba3ad7639dbe -> 
+  custom:scripting/monoscript/fileName/PlatformPreprocessor.cs: 2ed1e3ec9199710372fd6c24cfb1966a -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerAnimator.cs: 720e8cfbae4b5079d69ef6c310e7f5a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PicoGs.cs: d0946c4c6a8c04685f3718b436c221cd -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManagerEditor.cs: 57797c6d39bf9759de3ca102d0e6bf4e -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSource.cs: eaf9f55f3468f36f9dc66fac9818450a -> 
+  custom:scripting/monoscript/fileName/Challenge.cs: 11d7e73681f5ac523c63ed9eba37cbd3 -> 
+  custom:scripting/monoscript/fileName/PXR_Log.cs: 07a23b5963c0f6231418c539578dd6c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ManagerEditor.cs: 24f8d233485166bfef293bd77f5548ab -> 
+  custom:scripting/monoscript/fileName/PXR_BuildingBlocks.cs: 7825c900372018e0a65992d9777ef065 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/PXR_OverlayManager.cs: c413462cce6b0051e821934d26e65a78 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/PXR_EnterprisePlugin.cs: 9a12aab187e70eb01adfe3525f55780a -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/OffLineSystemUpdateConfig.cs: 80d535ebffe9fda999495e4e53fd5ab6 -> 
+  custom:scripting/monoscript/fileName/Room.cs: ba819032e1f25c9028630cbb80713166 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerG3Animator.cs: 399a1f846cc237f618332b6172f5e038 -> 
+  custom:scripting/monoscript/fileName/PXR_MixedReality.cs: 868d39d781a78f093a9e9b8ad24f2bae -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGenerator.cs: bbe714c47786a71926bedf1322978404 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/monoscript/fileName/Compliance.cs: a20b44316a8967e816b8ade43449c3a7 -> 
+  custom:scripting/monoscript/fileName/Presence.cs: 02686356c06b048b50710fe7e02211d9 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer: eb508f7ae21d6a279d37f91c378f262f -> 
+  custom:scripting/monoscript/fileName/PXR_BuildProcessor.cs: d9fcafdf618a70566978fb5ba2915ce1 -> 
+  custom:scripting/monoscript/fileName/PXR_System.cs: 4ae928f21e57bec996876fbe6a80bbb8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO: 2d5292f46e8e791e3a51f2757cb01115 -> 
+  custom:scripting/monoscript/fileName/GeomNumPrinter.cs: f5073eb69bc4120ed720a3270b468995 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_MRSceneGeometryManager.cs: cdcb0fb3ec113ead6f072ec658a696d1 -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingBlock.cs: ee03f081d361aac19f497869cc676b1a -> 
+  custom:scripting/monoscript/fileName/Packet.cs: 193aafc595050b5e9c102e8b37c014e1 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSetting.cs: 664918cee3b06eff2a3b620fccbf3c07 -> 
+  custom:scripting/monoscript/fileName/JsonException.cs: 73860424f9e1a38f4515213d159096ea -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationOptional.cs: 6cf6bf490fa58901d3015772165b81ee -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 79063f8740d80a73d844727c912418bb -> 
+  custom:scripting/monoscript/fileName/CloudStorage.cs: 67f9660a6bd2e82f4163b50d497ac172 -> 
+  custom:scripting/monoscript/fileName/RTC.cs: da3f98db598af239c8ead1b96fe0b35f -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/PXR_FoveationRendering.cs: badfcd2f27e4b84f2856f8a6c7231118 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PXR_SceneCaptureManager.cs: 2f7dd9891749936559cd483314ff5b3d -> 
+  custom:scripting/monoscript/fileName/Network.cs: 9ba10994bfba6e1335da1ac1d8af4b50 -> 
+  custom:scripting/monoscript/fileName/StringCallback.cs: 41fab74732d8f065adfd7d6f3770e19f -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:scripting/monoscript/fileName/Achievements.cs: 5a614ee82f6928e064f9438295fce47c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Speech.cs: 8545b7fa0b2a0f28debd4ffe3088dbac -> 
+  custom:scripting/monoscript/fileName/IntCallback.cs: a2eb18cc3f2754b86c89a254f0aab8b3 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLayEditor.cs: 585ef0fc8ccda647c030e4928b4c5f02 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingAsset.cs: 5fd79a35424cae116a6ae96d22400524 -> 
+  custom:scripting/monoscript/fileName/Runner.cs: ef4f0751e480114414a2febf2528b298 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/monoscript/fileName/SimpleDemo.cs: fbdb67cc2cf973d0f8208c84e608f261 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometryEditor.cs: 55e9cae7f52addd03bb5a9f53692816e -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 5131bbb130bb4652742f626552744ac4 -> 
+  custom:scripting/monoscript/fileName/Message.cs: 8a3d57d8804d34bc96d253a401f24c39 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/Looper.cs: 102ee8bc9f4fe6bc3c6dbaf43a16059c -> 
+  custom:scripting/monoscript/fileName/Point3D.cs: 0992be2706d7732c3df020211ccd4825 -> 
+  custom:scripting/monoscript/fileName/Challenges.cs: b340d2da70b4bdc4fa639e2ebd636855 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/PXR_Settings.cs: a04eb7dc69717dc228846a8ca9edf1ed -> 
+  custom:scripting/monoscript/fileName/SliderText.cs: 949ff083d324be7d04bb355cf04613a8 -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayDemo.cs: 1a8882d40496d1cf6363f37715219a09 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometry.cs: 2bb1bb366d231518cfdf485790f52fdd -> 
+  custom:scripting/monoscript/fileName/JsonMapper.cs: dc015e1deb1c753b3a28431f2ed2703b -> 
+  custom:scripting/monoscript/fileName/PXR_Metadata.cs: 65014df5fbc3ff4cfb0a718c3b2982da -> 
+  custom:scripting/monoscript/fileName/IAP.cs: 7c3bbcdc4d2492fc40e2e4250efe7ddb -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Editor: 3a5cda23066ad6fb1740b48a05f6dd4a -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPosePreview.cs: 6efdc2d31b37531bc29534ef27a5cab4 -> 
+  custom:scripting/monoscript/fileName/Lexer.cs: da32336ed46db0ca5e6f840a180f1dd3 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModelCallback.cs: 10e4afbd8096eb27c1d99760308ccf63 -> 
+  custom:scripting/monoscript/fileName/PicoCastMediaFormat.cs: d3c585a497155cca106664bcb1039378 -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PcConfig.cs: a7a59a66887dac783be5f38ff8079da2 -> 
+  custom:scripting/monoscript/fileName/TimeUtil.cs: 4b651a382066672f699d8a2a1a827905 -> 
+  custom:scripting/monoscript/fileName/JsonReader.cs: b940e56670c866bc621cf40511e62f92 -> 
+  custom:scripting/monoscript/fileName/BindCallback.cs: 1438d1c3f07158a1006c05cd2d56ffe2 -> 
+  custom:scripting/monoscript/fileName/Gs.cs: adb5c6756e8649938e9229c51de6c77e -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 47b2d5387fe80e2b28f68297243f4883 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModel.cs: f8637bff828afa49d11b43500e9d1f02 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLay.cs: 0198ba0c8873ab4cd9e5b1b18813d0ff -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayEvent.cs: 42044aaa1ad909de5c41e66833afb391 -> 
+  custom:scripting/precompiled-assembly-types:PICO.TobSupport: 3fe36edbbb37747f8878cdfdf30860ab -> 
+  custom:scripting/monoscript/fileName/PXR_SettingsEditor.cs: 16d9af37ddb61263cc146bf30b097f83 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform.Editor: f1f24e6b2470975b85c33e85cc5e5c4d -> 
+  custom:scripting/monoscript/fileName/MarshalUtil.cs: eec8f71208c3a471015e3c28175e3873 -> 
+  custom:scripting/monoscript/fileName/EditorConf.cs: 0e5333f28267a698ce2f3b4c0ed40d54 -> 
+  custom:scripting/monoscript/fileName/PXR_VstModelPosCheck.cs: 72a44273ef0a2aa45a6bb1b1bd84520e -> 
+  custom:scripting/monoscript/fileName/IJsonWrapper.cs: e092419bb6a2fbdb943a4eff29b96a69 -> 
+  custom:scripting/monoscript/fileName/PXR_HandEditor.cs: 20f7f955fab0a6277f95987445299efa -> 
+  custom:scripting/monoscript/fileName/PXR_PTLoader.cs: 23791354f1e10d67f952be1353e1face -> 
+  custom:scripting/monoscript/fileName/CLIB2.cs: 356452544141fb0044f311e1e47f193d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.745 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/PICO Unity Integration SDK_3.1.0_20250109/Editor/PXR_SDKBuildCheck.cs Line: 31)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.191 seconds
+Domain Reload Profiling: 2930ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (476ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2192ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (944ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 39.51 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.2 MB). Loaded Objects now: 5021.
+Memory consumption went from 154.4 MB to 153.2 MB.
+Total: 10.428100 ms (FindLiveObjects: 0.765400 ms CreateObjectMapping: 2.832900 ms MarkObjects: 5.972600 ms  DeleteObjects: 0.855000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/PXR_PTPlugin.cs: f9fa17c32bf33a54f6598622dd6ebb15 -> 
+  custom:scripting/monoscript/fileName/Common.cs: 6ceb988f4de4f72ff12dc70f820e33c8 -> 
+  custom:scripting/monoscript/fileName/PXR_LateLatching.cs: f8bb1185beb43d3e125a612a1ac67720 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectSetting.cs: afc676b7be9dff7fa01f9c0cde59a39d -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialAnchor.cs: d146d49eb9ee9d811767d16b568a6a6f -> 
+  custom:scripting/monoscript/fileName/PXR_Utils.cs: ef61dcdd7be5d1345dcb0820795f7cd4 -> 
+  custom:scripting/monoscript/fileName/Sport.cs: 615605a00c4b6edddf8707f5d834bc4c -> 
+  custom:scripting/monoscript/fileName/FileCopyCallback.cs: 88a891c1c0dff1f6ed8d247bf9fe5493 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGeneratorEditor.cs: 8091040aad1a6dbb44da0ae1bd085f1f -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManager.cs: cefbb90d7ee7d22cb6bb758fafd317d1 -> 
+  custom:scripting/monoscript/fileName/Achievement.cs: 4a27aec49624e2d915909e3ead0f432e -> 
+  custom:scripting/monoscript/fileName/PXR_PhfFile.cs: f3417d0e5149adc7fb085b37235082a6 -> 
+  custom:scripting/monoscript/fileName/Menu.cs: 74e134b8fbf35731bdbab5e3562ddd6c -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterialEditor.cs: 8746270be97630f1a5f6583fc6d9dc88 -> 
+  custom:scripting/monoscript/fileName/PXR_Plugin.cs: 83a2b47875ebb04be588121f7ddb33c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerLoader.cs: d47205fdefe00277b605931de5addf6f -> 
+  custom:scripting/monoscript/fileName/PXR_EyeTracking.cs: ffc61f959921034207d70645fb212475 -> 
+  custom:scripting/monoscript/fileName/PXR_Enterprise.cs: 3229224de6eee57237db3705ae9866f5 -> 
+  custom:scripting/monoscript/fileName/User.cs: 88c8e7f01dd2499ae0cfaba3d3836b25 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview.Editor: 35cf46a4b2e50d076c4095ef2a62802d -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AmbisonicSource.cs: b41925125f1cb5285298f69ce4f5bc34 -> 
+  custom:scripting/monoscript/fileName/PXR_ObjImporter.cs: 5772fe6f72fcfd1b6e6fd50e95635dec -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
+  custom:scripting/monoscript/fileName/PlatformConfig.cs: 4167638fd48e7a991ef027b36056cfaf -> 
+  custom:scripting/monoscript/fileName/MessageQueue.cs: eebda3a40ed0164e3edb40055b64645e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Context.cs: 0b49f9b2ec95e9ccdf457005e48e664d -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 6970e5bff368910038049eb1434facbf -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneMaterial.cs: b0ed09043432561e6d281853dd82ef69 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_API.cs: 0180cd679ab89372b9260053f415f09a -> 
+  custom:scripting/monoscript/fileName/LargeSpaceQuickModeInfo.cs: 746e92a4159e1a7dfb861a5a07d1911a -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRequired.cs: 87a45bfc208b657eaa7e65f1c0304bc2 -> 
+  custom:scripting/monoscript/fileName/PXR_EnterpriseTools.cs: cb748db9321a03ccf09f64a63126e35f -> 
+  custom:scripting/monoscript/fileName/AssetFile.cs: 20cc4a6542ff4cae6f8c78f06281565c -> 
+  custom:scripting/monoscript/fileName/PXR_ObjectTrackingBlock.cs: 22f6e1d1a4b8f0ae1b503fbcc01aa5c0 -> 
+  custom:scripting/monoscript/fileName/LongCallback.cs: c18079873c5fb0d777b6784600637062 -> 
+  custom:scripting/monoscript/fileName/CLIB.cs: 3c045d72b3a4968faad998412dc3ced3 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshManagerEditor.cs: dabfdd2a96fe059f5339cf77d97ce378 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 86fa513bfc04d58509db292069910bf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.LivePreview: ea8751c8f848e230ea223778cfa839f1 -> 
+  custom:scripting/monoscript/fileName/BoolCallback.cs: b59d6a39a870acff3d1d77dd72970958 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSettingEditor.cs: ef01803c90de352c09913ef04578e403 -> 
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 701988ef3c16e84d3bc781477493ab34 -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 4dbca4fbe4a89e2a18943694f414e3a9 -> 
+  custom:scripting/monoscript/fileName/JsonMockWrapper.cs: 964b129916209e3a5c876aa40f1401af -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: d52e14652f14fd6e56a66a859653fea9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: 01e68fef49e5cbf622bb7b4ffc622d89 -> 
+  custom:scripting/monoscript/fileName/PXR_Input.cs: 2d74c899d5a7936ff0667460bbfe3996 -> 
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 6847a9ea85cd2d801d895b625e9590ff -> 
+  custom:scripting/monoscript/fileName/Application.cs: 63b93956051a3bd288113a556970b21a -> 
+  custom:scripting/monoscript/fileName/SystemUpdateCallback.cs: 3c538098cefc3d01f46c69773360b1c7 -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationRecommend.cs: 5616f00a58524bda4ed40636cb07f56a -> 
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSourceEditor.cs: 27c49919edfe2e61363edc652835d4a7 -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: ee5d3b5e5d81c98c5d3594e8b9153df0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: fa91ddd62be7b4c45bfd03890af30249 -> 
+  custom:scripting/monoscript/fileName/MarkerInfoCallback.cs: 92a547703e886a9b48140ac112e8650e -> 
+  custom:scripting/monoscript/fileName/PXR_Hand.cs: 69977de91689529ead32ce03d782613f -> 
+  custom:scripting/monoscript/fileName/ManifestElement.cs: c30b57498d373b7476c4d7dfdaee189c -> 
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: 8e928039a032f154dc8a86537aaac69a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
+  custom:scripting/monoscript/fileName/PXR_PTMetadata.cs: 9e1cc9bd5c6d55cc715e1d4f3abf3612 -> 
+  custom:scripting/monoscript/fileName/PXR_Usages.cs: 35a8cc68e920baf3608d3450004808f5 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_Types.cs: 6a4700a21f0700ac9bc54ea2f4f1fccd -> 
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: d0237042ed94ccc3267a409cde8490a6 -> 
+  custom:scripting/monoscript/fileName/PXR_CameraEffectBlock.cs: 5f0185fb9ddbd5b6c98f1c38c5f897f8 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingEditor.cs: 8fbc6a6bc0bbdbd6bcb220cd53fe195e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform: c29cf432f8c5138003c182f3664603ca -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: e493f521fc1755dec19875ae28a4f621 -> 
+  custom:scripting/monoscript/fileName/Intent.cs: 84d6bff0360f76521f04a27993d9578a -> 
+  custom:scripting/monoscript/fileName/PXR_Loader.cs: 6941131b16e11f8434c28e7a56a285a7 -> 
+  custom:scripting/monoscript/fileName/Core.cs: c764e9d9e28fda7ce2ef86759a16300c -> 
+  custom:scripting/monoscript/fileName/Task.cs: 91a0e0c24d5b9443d8a9783c9304a4f7 -> 
+  custom:scripting/monoscript/fileName/PXR_PTSettings.cs: d66e33a74266bd3619a9470bf0ce50e8 -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: e06e5e9ffca9529e9db63900dd9caf32 -> 
+  custom:scripting/monoscript/fileName/RGBCameraStruct.cs: 3553494091fc2a6db2185b7a80bee948 -> 
+  custom:scripting/monoscript/fileName/plastic_fps_controller.cs: 57a8053aa123364c6ebec357dd62084b -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 28efaa63edac30b89ccc35ca2bf149fa -> 
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 2cf07b13d54bfee2898ed6dc38612fbb -> 
+  custom:scripting/monoscript/fileName/PXR_HandTracking.cs: f57f15c97830fb9f108fbf94308ed626 -> 
+  custom:scripting/monoscript/fileName/WifiConfiguration.cs: f88095a12123faf41b116551ae7d1475 -> 
+  custom:scripting/monoscript/fileName/Leaderboard.cs: c5fa79f90c646c88bbdca675ad8f2af3 -> 
+  custom:scripting/monoscript/fileName/MarkerInfo.cs: 7401ebc04695c7e47ae0eab60a4e22da -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingDebugBlock.cs: 5024e111bf7b402266869252c2dcbdce -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 0584551019219d327b5031235fdf67b5 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseConfig.cs: d5fc44e752a173aba27d5f5b62d78e4d -> 
+  custom:scripting/monoscript/fileName/PXR_Manager.cs: fc1f0b69481a43e117482fc099179a81 -> 
+  custom:scripting/monoscript/fileName/PXR_ScreenFade.cs: 144c16341559c66802f54eb3b3b89b77 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioListener.cs: 8e1d9185b46bbf15ef195049424b9ec0 -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManager.cs: 6a3308db8de1c635307f0872d1981d2f -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerWithHandAnimator.cs: df6bba3b7c3d70f752ea2a27d7d20919 -> 
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 39a1227fa3c478af29a735ec246b6baf -> 
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: b85851af39f83959c5c298effbf32139 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPose.cs: c4e250d55d7469c7f41d49d37747dc3e -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 4be5a8f671a1d808dd1496961b79b86b -> 
+  custom:scripting/monoscript/fileName/Highlight.cs: 164a05a95777d91e8fcd4d80858a089a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/JsonData.cs: 7c9f698ee3c40f45e04150969e6f7310 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO.Editor: de5b09758dfbf3bb6bcabde0c0002655 -> 
+  custom:scripting/monoscript/fileName/Notification.cs: 03b291fef286b70386f2eadc498c3fd6 -> 
+  custom:scripting/monoscript/fileName/PXR_SpatialMeshColorSetting.cs: 446a9cad0ab19e58753102a85e521ca0 -> 
+  custom:scripting/monoscript/fileName/PlatformManifestRewrite.cs: 4d6e5691e30a253bf49773fc38599381 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/PXR_MotionTracking.cs: c71bfa275494a3e7d119448d89ee6784 -> 
+  custom:scripting/monoscript/fileName/PXR_Boundary.cs: 7031229b8bdd8cef54bd97986dafb444 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKBuildCheck.cs: d89c3014525bf3e337c6465f551e46bf -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerPower.cs: 3c43e1c1a107fe171c5ee27c679552d2 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Example: c4cddd27f4255ac5db1bffedefdf6e10 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_ContextEditor.cs: 71ca7948050d4f716edf55ddffbc82de -> 
+  custom:scripting/monoscript/fileName/Matchmaking.cs: ecc931522755921313bcba3ad7639dbe -> 
+  custom:scripting/monoscript/fileName/PlatformPreprocessor.cs: 2ed1e3ec9199710372fd6c24cfb1966a -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerAnimator.cs: 720e8cfbae4b5079d69ef6c310e7f5a0 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/PicoGs.cs: d0946c4c6a8c04685f3718b436c221cd -> 
+  custom:scripting/monoscript/fileName/PXR_ARCameraEffectManagerEditor.cs: 57797c6d39bf9759de3ca102d0e6bf4e -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: cc8d2e81204b3fd0e662cd38ef4a2d49 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_AudioSource.cs: eaf9f55f3468f36f9dc66fac9818450a -> 
+  custom:scripting/monoscript/fileName/Challenge.cs: 11d7e73681f5ac523c63ed9eba37cbd3 -> 
+  custom:scripting/monoscript/fileName/PXR_Log.cs: 07a23b5963c0f6231418c539578dd6c9 -> 
+  custom:scripting/monoscript/fileName/PXR_ManagerEditor.cs: 24f8d233485166bfef293bd77f5548ab -> 
+  custom:scripting/monoscript/fileName/PXR_BuildingBlocks.cs: 7825c900372018e0a65992d9777ef065 -> 
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: a1b6225426bb5004db8b9d7388fe5771 -> 
+  custom:scripting/monoscript/fileName/PXR_OverlayManager.cs: c413462cce6b0051e821934d26e65a78 -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: ae85c4c4a11fcc1ed3393963333e400c -> 
+  custom:scripting/monoscript/fileName/PXR_EnterprisePlugin.cs: 9a12aab187e70eb01adfe3525f55780a -> 
+  custom:scripting/monoscript/fileName/XRLoader.cs: d82cec0b87bab7dffe74fb3651887ce3 -> 
+  custom:scripting/monoscript/fileName/OffLineSystemUpdateConfig.cs: 80d535ebffe9fda999495e4e53fd5ab6 -> 
+  custom:scripting/monoscript/fileName/Room.cs: ba819032e1f25c9028630cbb80713166 -> 
+  custom:scripting/monoscript/fileName/PXR_ControllerG3Animator.cs: 399a1f846cc237f618332b6172f5e038 -> 
+  custom:scripting/monoscript/fileName/PXR_MixedReality.cs: 868d39d781a78f093a9e9b8ad24f2bae -> 
+  custom:scripting/monoscript/fileName/PXR_HandPoseGenerator.cs: bbe714c47786a71926bedf1322978404 -> 
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: f87a91ba911f6030453bea8d921b45d2 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: d8dd4961c18e43fcd707eb950405363a -> 
+  custom:scripting/monoscript/fileName/Compliance.cs: a20b44316a8967e816b8ade43449c3a7 -> 
+  custom:scripting/monoscript/fileName/Presence.cs: 02686356c06b048b50710fe7e02211d9 -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer: eb508f7ae21d6a279d37f91c378f262f -> 
+  custom:scripting/monoscript/fileName/PXR_BuildProcessor.cs: d9fcafdf618a70566978fb5ba2915ce1 -> 
+  custom:scripting/monoscript/fileName/PXR_System.cs: 4ae928f21e57bec996876fbe6a80bbb8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.PICO: 2d5292f46e8e791e3a51f2757cb01115 -> 
+  custom:scripting/monoscript/fileName/GeomNumPrinter.cs: f5073eb69bc4120ed720a3270b468995 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_MRSceneGeometryManager.cs: cdcb0fb3ec113ead6f072ec658a696d1 -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 52ee9552b5cbbfe4eb60d480e36ffff5 -> 
+  custom:scripting/monoscript/fileName/PXR_BodyTrackingBlock.cs: ee03f081d361aac19f497869cc676b1a -> 
+  custom:scripting/monoscript/fileName/Packet.cs: 193aafc595050b5e9c102e8b37c014e1 -> 
+  custom:scripting/monoscript/fileName/PXR_PlatformSetting.cs: 664918cee3b06eff2a3b620fccbf3c07 -> 
+  custom:scripting/monoscript/fileName/JsonException.cs: 73860424f9e1a38f4515213d159096ea -> 
+  custom:scripting/monoscript/fileName/PXR_ProjectValidationOptional.cs: 6cf6bf490fa58901d3015772165b81ee -> 
+  custom:scripting/monoscript/fileName/JsonWriter.cs: 79063f8740d80a73d844727c912418bb -> 
+  custom:scripting/monoscript/fileName/CloudStorage.cs: 67f9660a6bd2e82f4163b50d497ac172 -> 
+  custom:scripting/monoscript/fileName/RTC.cs: da3f98db598af239c8ead1b96fe0b35f -> 
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 7bb0491ac9109774b097f2da80cd0c03 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: 641c0bff5eb90d0569a809ea302132ee -> 
+  custom:scripting/monoscript/fileName/PXR_FoveationRendering.cs: badfcd2f27e4b84f2856f8a6c7231118 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PXR_SceneCaptureManager.cs: 2f7dd9891749936559cd483314ff5b3d -> 
+  custom:scripting/monoscript/fileName/Network.cs: 9ba10994bfba6e1335da1ac1d8af4b50 -> 
+  custom:scripting/monoscript/fileName/StringCallback.cs: 41fab74732d8f065adfd7d6f3770e19f -> 
+  custom:scripting/monoscript/fileName/Achievements.cs: 5a614ee82f6928e064f9438295fce47c -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Speech.cs: 8545b7fa0b2a0f28debd4ffe3088dbac -> 
+  custom:scripting/monoscript/fileName/IntCallback.cs: a2eb18cc3f2754b86c89a254f0aab8b3 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLayEditor.cs: 585ef0fc8ccda647c030e4928b4c5f02 -> 
+  custom:scripting/monoscript/fileName/PXR_SDKSettingAsset.cs: 5fd79a35424cae116a6ae96d22400524 -> 
+  custom:scripting/monoscript/fileName/Runner.cs: ef4f0751e480114414a2febf2528b298 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 42bf6f4b06629c812bd73f8ff461fec4 -> 
+  custom:scripting/monoscript/fileName/SimpleDemo.cs: fbdb67cc2cf973d0f8208c84e608f261 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 219d482e32bf0c01357e773617418955 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometryEditor.cs: 55e9cae7f52addd03bb5a9f53692816e -> 
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 1f095dd277a284b59543541a608de1da -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 5131bbb130bb4652742f626552744ac4 -> 
+  custom:scripting/monoscript/fileName/Message.cs: 8a3d57d8804d34bc96d253a401f24c39 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/Looper.cs: 102ee8bc9f4fe6bc3c6dbaf43a16059c -> 
+  custom:scripting/monoscript/fileName/Point3D.cs: 0992be2706d7732c3df020211ccd4825 -> 
+  custom:scripting/monoscript/fileName/Challenges.cs: b340d2da70b4bdc4fa639e2ebd636855 -> 
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1558884a4b0ea94b4910dd640a0e6741 -> 
+  custom:scripting/monoscript/fileName/PXR_Settings.cs: a04eb7dc69717dc228846a8ca9edf1ed -> 
+  custom:scripting/monoscript/fileName/SliderText.cs: 949ff083d324be7d04bb355cf04613a8 -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayDemo.cs: 1a8882d40496d1cf6363f37715219a09 -> 
+  custom:scripting/monoscript/fileName/PXR_Audio_Spatializer_SceneGeometry.cs: 2bb1bb366d231518cfdf485790f52fdd -> 
+  custom:scripting/monoscript/fileName/JsonMapper.cs: dc015e1deb1c753b3a28431f2ed2703b -> 
+  custom:scripting/monoscript/fileName/PXR_Metadata.cs: 65014df5fbc3ff4cfb0a718c3b2982da -> 
+  custom:scripting/monoscript/fileName/IAP.cs: 7c3bbcdc4d2492fc40e2e4250efe7ddb -> 
+  custom:scripting/precompiled-assembly-types:Pico.Spatializer.Editor: 3a5cda23066ad6fb1740b48a05f6dd4a -> 
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: 546181baf4c03dbbd57015a6731508f8 -> 
+  custom:scripting/monoscript/fileName/PXR_HandPosePreview.cs: 6efdc2d31b37531bc29534ef27a5cab4 -> 
+  custom:scripting/monoscript/fileName/Lexer.cs: da32336ed46db0ca5e6f840a180f1dd3 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModelCallback.cs: 10e4afbd8096eb27c1d99760308ccf63 -> 
+  custom:scripting/monoscript/fileName/PicoCastMediaFormat.cs: d3c585a497155cca106664bcb1039378 -> 
+  custom:scripting/monoscript/fileName/XRPackage.cs: f2edbbf87f9b798abaf2a9f285d155f5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PcConfig.cs: a7a59a66887dac783be5f38ff8079da2 -> 
+  custom:scripting/monoscript/fileName/TimeUtil.cs: 4b651a382066672f699d8a2a1a827905 -> 
+  custom:scripting/monoscript/fileName/JsonReader.cs: b940e56670c866bc621cf40511e62f92 -> 
+  custom:scripting/monoscript/fileName/BindCallback.cs: 1438d1c3f07158a1006c05cd2d56ffe2 -> 
+  custom:scripting/monoscript/fileName/Gs.cs: adb5c6756e8649938e9229c51de6c77e -> 
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 47b2d5387fe80e2b28f68297243f4883 -> 
+  custom:scripting/monoscript/fileName/WifiDisplayModel.cs: f8637bff828afa49d11b43500e9d1f02 -> 
+  custom:scripting/monoscript/fileName/PXR_OverLay.cs: 0198ba0c8873ab4cd9e5b1b18813d0ff -> 
+  custom:scripting/monoscript/fileName/VirtualDisplayEvent.cs: 42044aaa1ad909de5c41e66833afb391 -> 
+  custom:scripting/precompiled-assembly-types:PICO.TobSupport: 3fe36edbbb37747f8878cdfdf30860ab -> 
+  custom:scripting/monoscript/fileName/PXR_SettingsEditor.cs: 16d9af37ddb61263cc146bf30b097f83 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 2f743437d3b09c9a4a5a33e9be971b1a -> 
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 16731333f575d8bc31df496aced36ebf -> 
+  custom:scripting/precompiled-assembly-types:PICO.Platform.Editor: f1f24e6b2470975b85c33e85cc5e5c4d -> 
+  custom:scripting/monoscript/fileName/MarshalUtil.cs: eec8f71208c3a471015e3c28175e3873 -> 
+  custom:scripting/monoscript/fileName/EditorConf.cs: 0e5333f28267a698ce2f3b4c0ed40d54 -> 
+  custom:scripting/monoscript/fileName/PXR_VstModelPosCheck.cs: 72a44273ef0a2aa45a6bb1b1bd84520e -> 
+  custom:scripting/monoscript/fileName/IJsonWrapper.cs: e092419bb6a2fbdb943a4eff29b96a69 -> 
+  custom:scripting/monoscript/fileName/PXR_HandEditor.cs: 20f7f955fab0a6277f95987445299efa -> 
+  custom:scripting/monoscript/fileName/PXR_PTLoader.cs: 23791354f1e10d67f952be1353e1face -> 
+  custom:scripting/monoscript/fileName/CLIB2.cs: 356452544141fb0044f311e1e47f193d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1294.111804 seconds.
+  path: Assets/VRMovie360.renderTexture
+  artifactKey: Guid(a25e751b6eb82564ab4a969cbb4a2fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRMovie360.renderTexture using Guid(a25e751b6eb82564ab4a969cbb4a2fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\Graphics\RenderTexture.cpp line 1144]
+
+ -> (artifact id: 'c3fabe2be4275dc9475bc65a8ae641fd') in 0.121115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
